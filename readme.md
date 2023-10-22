@@ -1,28 +1,8 @@
-# Aplicativo para rastrear objetos do correios. (React Native)
+# Onboarding com animação na transição de página (React Native)
 
-## Intro
-### Aplicativo desenvolvido em React Native com Typescript utilizando o <b>Expo</b> e consumindo a API dos correrios para rastrear pacotes.<br><br>
-Foi utilizado diversos recursos do React Native para melhorar a performance, arquitetura e usabilidade do aplicativo.
-<br><br>
-> Alguns dos recursos utilizados.
-
- - Context
- - useReducer
- - Custom Hooks
- - AsyncStorage
- - Axios
- - ThemeProvider
- - Read QrCode
- - Lottie
-
-[Vídeo de apresentação](https://user-images.githubusercontent.com/30129295/188051207-2d15d75b-243f-4f67-a35b-5028143d4752.mp4)
+[Vídeo de apresentação](https://github.com/ThompsonMss/react-native-onboarding-animation/assets/30129295/a96e4284-e933-497c-a29a-87320cfd9296)
 
 -------------------------------------
-<br>
-
-## Prototipação (Figma)
-[Link da prototipação (Figma)](https://www.figma.com/file/LtAqqEKj3FaEQjt7TZuUX5/Untitled?node-id=0%3A1)
-
 <br>
 
 ## Instalação
@@ -34,13 +14,13 @@ Siga os comandos abaixo para instalar essa aplicação em sua máquina.
 ```bash
 # Clonando o repositório da aplicação.
 
-git clone https://github.com/ThompsonMss/app-codex-api-correrios-react-native codex
+git clone https://github.com/ThompsonMss/react-native-onboarding-animation OnboardingAnimation
 ```
 
 ```bash
 # Entrando na pasta da aplicação.
 
-cd codex/
+cd OnboardingAnimation/
 ```
 
 ```bash
@@ -52,7 +32,7 @@ npm i
 ```bash
 # Comando para rodar a aplicação.
 
-npx expo start --android  # ou --ios
+npm run android  # ou npm run ios
 ```
 
 
